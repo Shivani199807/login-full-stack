@@ -21,7 +21,6 @@ const Dashboard = () => {
     console.log(data);
   };
   const onChange = (e, name) => {
-    console.log(e);
     setTempQuote(e.target.value);
   };
   const onSubmitButton = async (e) => {
